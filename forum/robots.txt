@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /files/forum/attach/
+Disallow: /download/
+Disallow: /read/
+Disallow: /tags/
+Disallow: /the-loai/
+Allow: /

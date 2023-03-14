@@ -1,0 +1,38 @@
+<?php
+defined('_MRKEN_CMS') or die('Restricted access');
+
+$lang['autologin_link']                =   'AutoLogin Link';
+$lang['autologin_warning']             =   '<b>ATTENTION !!</b><br />For your safety, never use your autologin in unsafe locations (internet cafe, other computer, etc.)';
+$lang['captcha']                       =   'Verification code';
+$lang['change_password']               =   'Change password';
+$lang['change_password_conf']          =   'Password successfully changed.<br />New password sent to your E-mail address';
+$lang['error_code']                    =   'Incorrect code';
+$lang['error_email']                   =   'Invalid E-mail address';
+$lang['error_email_sent']              =   'Error sending E-mail';
+$lang['error_fatal']                   =   'Password recovery is impossible';
+$lang['error_fields']                  =   'It is necessary to fill in all fields';
+$lang['error_lenght']                  =   'Password must be min. 3, max. 10 characters';
+$lang['error_new_password']            =   'The password confirmation you entered is wrong';
+$lang['error_old_password']            =   'Incorrect entered old password';
+$lang['error_rights']                  =   'You cannot change password of higher administration';
+$lang['error_timelimit']               =   'Time allotted for the password recovery has passed';
+$lang['input_new_password']            =   'New password';
+$lang['password_change_help']          =   'Password length min. 3, max. 10 characters, letters and numbers are allowed.';
+$lang['password_changed']              =   'Password successfully changed';
+$lang['password_restore']              =   'Password recovery';
+$lang['repeat_password']               =   'Repeat password';
+$lang['restore_help']                  =   'Password will be send to E-mail address specified in your profile.<br />WARNING !! If E-mail address has not been specified in your profile, you will not be able to recover your password.';
+$lang['restore_help1']                 =   'Hello';
+$lang['restore_help2']                 =   'You start process of password recovery on the site';
+$lang['restore_help3']                 =   'In order to recover your password, you must click on the link';
+$lang['restore_help4']                 =   'Link valid for 1 hour';
+$lang['restore_help5']                 =   'If you receive this mail by mistake, just ignore this letter';
+$lang['restore_help6']                 =   'Check your e-mail for further information';
+$lang['restore_help7']                 =   'After logging in, you can change your password to new one.';
+$lang['restore_help8']                 =   'You have changed your password on the site';
+$lang['restore_timelimit']             =   'Password can be recovered 1 time per day';
+$lang['sent']                          =   'Send';
+$lang['show_autologin']                =   'Show autologin link';
+$lang['your_email']                    =   'Your E-mail';
+$lang['your_login']                    =   'Username';
+$lang['your_new_password']             =   'Your new password';

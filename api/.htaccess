@@ -1,0 +1,18 @@
+ErrorDocument 402 "!"
+ErrorDocument 403 "!"
+ErrorDocument 404 "!"
+ErrorDocument 500 "!"
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{HTTP_HOST} !^api.vdevs.pro
+    RewriteRule ^.*$ http://api.vdevs.pro [L,QSA]
+
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -l [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule .* - [NC,L]
+    RewriteRule ^(.*)$ index.php?act=$1 [L,QSA]
+</IfModule>

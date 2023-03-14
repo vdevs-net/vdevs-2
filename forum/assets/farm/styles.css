@@ -1,0 +1,39 @@
+.mt-5{padding-top:5px;}
+.farm{background-image:url('grass.png');background-repeat:repeat}
+.farm_bg{height:141px;background-image:url('farm_bg.png');background-repeat:repeat-x}
+.farm_bg .cloud_1{margin-top:5px}
+.farm_bg .cloud_2{margin-top:10px}
+.farm_body {margin-top:-41px}
+.construction{text-align:center}
+.construction a{display:inline-block;background-position:bottom left;background-repeat:no-repeat;height:70px;position:relative}
+.construction a.to_store{background-image: url('store.png');width:93px;margin-right:5px}
+.construction a.to_warehouse{background-image: url('warehouse.png');width:78px;margin-right:10px}
+.construction a.to_star_fruit_tree{background-image: url('star_fruit_tree.png');width:66px}
+.construction a.to_star_fruit_tree>.timer{display:inline-block;font-size:smaller;position:absolute;width:100%;top:-10px;left:50%;margin-left:-33px;background:#fff;border-radius:5px;padding:2px;color:#000}
+.construction a.to_star_fruit_tree>.timer:before{position:absolute;bottom:-7px;left:9px;display:inline-block;border-right:7px solid transparent;border-top:7px solid #ccc;border-left:7px solid transparent;border-top-color:rgba(0,0,0,0.2);content:''}
+.construction a.to_star_fruit_tree>.timer:after{position:absolute;bottom:-6px;left:10px;display:inline-block;border-right:6px solid transparent;border-top:6px solid #ffffff;border-left:6px solid transparent;content:''}
+.construction a.to_star_fruit_tree.star_fruit_tree_1{background-image: url('star_fruit_tree_1.png')}
+.plant_area{max-width:160px;padding:5px}
+.plant_area > .plot{margin:0;padding:0;height:50px;width:25px;text-align:center;position:relative;display:inline-block;font-size:smaller}
+.plant_area > .plot > a{display:block;position:absolute;bottom:15px;width:100%;height:35px;background-repeat:no-repeat;background-position: 50% 50%;background-size:28px 32px}
+.plant_area > .plot > a.item_0{background-image: url('item/0_0.png')}
+.plant_area > .plot > input{margin:0;padding:0;position:absolute;bottom:0;left:50%;margin-left:-6px}
+.farm_divide {height: 28px; background: url('divide.png') repeat-x}
+.farm_bottom::after {display: block; content: '';clear:both;}
+.farm_cote, .farm_pond {position: relative; z-index: 0; background-repeat: no-repeat;}
+.farm_cote {float:left; width: 159px; height: 102px; background-image: url('cote.png'); margin-top: -11px}
+.farm_pond {float:right; width: 99px; height: 73px; background-image: url('pond.png')}
+.farm_cote_item, .farm_pond_item {display:inline-block; position: absolute;z-index: 2}
+.controls{padding:5px}
+
+.star_fruit_tree_2{padding:5px}
+.farm .textbox{background:#fff;padding:2px 3px;font-size:0.9em;border-radius:5px;margin-top:5px}
+
+/* vDevs farm */
+.farm_wrapper .phdr{background:#00796B;color:#FFF;font-size:13px;margin-top:4px;padding:5px}
+.farm_wrapper .phdr a{color:#ff0}
+.farm_wrapper .menu{background:#FFF;border:solid #e9e9e9;border-width:0 1px 1px;padding:4px}
+.farm_wrapper .action{background-color:#F2F6F8;border:solid #E9E9E9;border-width:0 1px 1px;color:#34617E;padding:4px;}
+.farm_wrapper .alert{border:1px solid #e9e9e9;padding:4px}
+.farm_wrapper .alert-warning{color:#6d220d;background:#ffebe8}
+.farm_wrapper .alert-success{background:#c7e8d5}

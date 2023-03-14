@@ -1,0 +1,38 @@
+<?php
+defined('_MRKEN_CMS') or die('Restricted access');
+
+$lang['autologin_link']                =   'Liên kết đăng nhập tự động';
+$lang['autologin_warning']             =   '<b>Chú ý !!</b><br />Vì sự an toàn của bạn, đừng bao giờ sử dụng trong các địa điểm không an toàn (quán cà phê internet, các máy tính, vv.)';
+$lang['captcha']                       =   'Mã xác minh';
+$lang['change_password']               =   'Thay đổi mật khẩu';
+$lang['change_password_conf']          =   'Mật khẩu thay đổi thành công.<br />Mật khẩu mới đã gửi đến địa chỉ E-mail của bạn';
+$lang['error_code']                    =   'Không chính xác mã xác minh';
+$lang['error_email']                   =   'E-mail không hợp lệ địa chỉ';
+$lang['error_email_sent']              =   'Lỗi gửi E-mail';
+$lang['error_fatal']                   =   'Khôi phục mật khẩu là không thể';
+$lang['error_fields']                  =   'Nó là cần thiết để điền vào tất cả các lĩnh vực';
+$lang['error_lenght']                  =   'Mật khẩu được tối thiểu 3 và tối đa 10 ký tự';
+$lang['error_new_password']            =   'mật khẩu mới không trùng khớp nhau';
+$lang['error_old_password']            =   'không chinh xác mật khẩu cũ';
+$lang['error_rights']                  =   'Bạn không thể thay đổi mật khẩu trên bài viết của bạn cũ hơn';
+$lang['error_timelimit']               =   'Liên kết này đã quá hạn sử dụng!';
+$lang['input_new_password']            =   'Mật khẩu mới';
+$lang['password_change_help']          =   'Mật khẩu dài min. 3, tối đa. 10 ký tự được phép chữ cái và số.';
+$lang['password_changed']              =   'Mật khẩu thay đổi thành công';
+$lang['password_restore']              =   'Khôi phục mật khẩu';
+$lang['repeat_password']               =   'Nhập lại mật khẩu';
+$lang['restore_help']                  =   'Mật khẩu sẽ gửi đến địa chỉ E-mail của bạn.<br />CẢNH BÁO! Nếu bạn chưa thiết lập địa chỉ E-mail, bạn sẽ không thể phục hồi mật khẩu của bạn.';
+$lang['restore_help1']                 =   'Xin chào';
+$lang['restore_help2']                 =   'Bạn đã yêu cầu khôi phục mật khẩu trên trang web';
+$lang['restore_help3']                 =   'Để khôi phục mật khẩu, hãy nhấp vào liên kết';
+$lang['restore_help4']                 =   'Liên kết chỉ có hiệu lực trong 1 giờ';
+$lang['restore_help5']                 =   'Nếu đây không phải là yêu cầu của bạn, bạn có thể bỏ qua bức thư này';
+$lang['restore_help6']                 =   'Link thủ tục phục hồi mật khẩu được gửi đến địa chỉ e-mail';
+$lang['restore_help7']                 =   'Sau khi đăng nhập bằng mật khẩu mới, bạn có thể thay đổi mật khẩu tùy ý.';
+$lang['restore_help8']                 =   'Bạn đã yêu cầu mật khẩu mới trên trang web';
+$lang['restore_timelimit']             =   'Mật khẩu có thể phục hồi không quá 1 lần mỗi ngày';
+$lang['sent']                          =   'Gửi';
+$lang['show_autologin']                =   'Hiển thị liên kết tự động đăng nhập';
+$lang['your_email']                    =   'E-mail của bạn ';
+$lang['your_login']                    =   'Tên tài khoản';
+$lang['your_new_password']             =   'Mật khẩu mới của bạn';

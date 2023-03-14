@@ -1,0 +1,30 @@
+<?php
+defined('_MRKEN_CMS') or die('Restricted access');
+
+$lang['about']                         =   'About me';
+$lang['about_help']                    =   'Max. 500 characters';
+$lang['captcha']                       =   'Verification code';
+$lang['captcha_help']                  =   'If you cannot see the image code, enable graphics in your browser and refresh this page';
+$lang['enter']                         =   'Enter';
+$lang['error_nick_empty']              =   'You have not entered nick';
+$lang['error_nick_lenght']             =   'Too long nick';
+$lang['error_nick_occupied']           =   'This nick already in use';
+$lang['error_password_lenght']         =   'Too long password';
+$lang['error_sex']                     =   'You have not selected genger';
+$lang['login']                         =   'Login';
+$lang['login_help']                    =   'Min. 5, Max. 30 Characters.<br />Allowed letters of latin alphabets, numbers and dot ( . )';
+$lang['moderation_note']               =   'Please, wait until a moderator approves yor registration';
+$lang['moderation_warning']            =   'You can get authorized on the site after confirmation of your registration.';
+$lang['name']                          =   'Name';
+$lang['name_help']                     =   'Max. 30 characters';
+$lang['password']                      =   'Password';
+$lang['password_help']                 =   'Min. 6, Max. 32 character';
+$lang['registration']                  =   'Registration';
+$lang['registration_closed']           =   'Registration temporarily closed';
+$lang['registration_terms']            =   'Please, do not register names like 111, shhhh, uuuu, etc. They will be deleted. <br /> Also all the profiles registered via proxy servers will be deleted';
+$lang['sex_m']                         =   'Male';
+$lang['sex_w']                         =   'Female';
+$lang['you_registered']                =   'Your registratiton data';
+$lang['your_id']                       =   'Your ID';
+$lang['your_login']                    =   'Your username';
+$lang['your_password']                 =   'Your password';
