@@ -19,4 +19,4 @@
 <?php else: ?>
     <div class="menu"><p><?=$lang['list_empty']?></p></div>
 <?php endif ?>
-<div class="gmenu"><form action="<?=$addCatUrl?>" method="post"><input type="submit" value="<?=$lang['add']?>" /></form></div>
+<div class="gmenu"><form action="<?=$addCatUrl?>" method="get"><input type="submit" value="<?=$lang['add']?>" /></form></div>
