@@ -280,9 +280,9 @@ if (isset($_POST['submit']) && isset($_POST['token']) && isset($_SESSION['token'
 		}
 	}
 	echo '<div class="phdr">Hành động</div>';
-	echo '<div class="menu"><select name="select" class="custom-select"><option value="0">' . ($data && $ns ? 'Đơn vị đang chọn' : 'Chọn mục tiêu') . '</option>' .
+	echo '<div class="menu form-inline"><select name="select" class="custom-select form-control"><option value="0">' . ($data && $ns ? 'Đơn vị đang chọn' : 'Chọn mục tiêu') . '</option>' .
 	    '<option value="1">Tất cả ô đất</option><option value="2">Tất cả vật nuôi</option><option value="3">Tất cả cá</option></select>' . 
-	    '<select name="action" class="custom-select"><option value="0">Chọn hành động</option><option value="action_0">Tưới nước/Cho ăn</option>';
+	    '<select name="action" class="custom-select form-control"><option value="0">Chọn hành động</option><option value="action_0">Tưới nước/Cho ăn</option>';
 	$count2 = mysql_result(mysql_query('SELECT COUNT(*) FROM `' . FARM_ITEMS_TABLE . '` WHERE `user_id` = "'. $user_id .'" AND `type` = "1" AND `count` > 0'), 0);
 	if ($count2) {
 		$stmt = mysql_query('SELECT `item_id`, `count` FROM `' . FARM_ITEMS_TABLE . '` WHERE `user_id` = "'. $user_id .'" AND `type` = "1" AND `count` > "0"');
