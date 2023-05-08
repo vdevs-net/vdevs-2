@@ -623,7 +623,7 @@ class functions extends core
         global $lng;
         if (isset($m[3])) {
             $p = parse_url($m[3]);
-            if ((('http://' . $p['host'] == SITE_HOST || 'https://' . $p['host'] == SITE_HOST) && isset($p['path']) && preg_match('#' . SITE_PATH . '/forum/threads/[a-z0-9-]+\.(\d+)/(page-(\d+))?#', $p['path'], $matches))) {
+            if (($p['host'] == SITE_HOST && isset($p['path']) && preg_match('#' . SITE_PATH . '/forum/threads/[a-z0-9-]+\.(\d+)/(page-(\d+))?#', $p['path'], $matches))) {
                 $req = mysql_query('SELECT `text` FROM `phonho_threads` WHERE `id`= "' . $matches[1] . '" AND `thread_deleted` = "0" LIMIT 1');
                 if (mysql_num_rows($req) > 0) {
                     $res = mysql_fetch_assoc($req);
