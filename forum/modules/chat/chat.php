@@ -64,7 +64,7 @@ if ($user_id) {
 				}
 			}
 			mysql_query('UPDATE `cms_settings` SET `val` = "' . SYSTEM_TIME . '" WHERE `key` = "chat_last"');
-			mysql_query('UPDATE `users` SET `lastpost`="' . SYSTEM_TIME . '" WHERE `id`="' . $user_id . '"');
+			mysql_query('UPDATE `users` SET `coin` = "' . $datauser['coin']  . '", `daily_reward_received` = "' . date('Y-m-d') . '", `lastpost`="' . SYSTEM_TIME . '", `lastdate` = "' . SYSTEM_TIME . '" WHERE `id`="' . $user_id . '"');
 			header('Location: ' . SITE_URL . '/chat/?r=' . rand(1000,9999)); exit;
 		}
 	}

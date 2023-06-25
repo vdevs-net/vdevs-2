@@ -179,9 +179,7 @@ if ($id) {
                                 $timeval = isset($_POST['timeval']) ? intval($_POST['timeval']) : 0;
                                 $time = isset($_POST['time']) ? intval($_POST['time']) : 0;
                                 $reason = !empty($_POST['reason']) ? functions::checkin($_POST['reason']) : '';
-                                if (empty($reason)) {
-                                    $reason = $lng['reason_not_specified'];
-                                }
+
                                 if (!$term || !$timeval || !$time) {
                                     $error = $lng['error_data'];
                                 }

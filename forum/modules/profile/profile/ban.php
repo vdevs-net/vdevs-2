@@ -34,7 +34,7 @@ if ($total) {
             'term'    => ($res['ban_time'] - $res['ban_while'] < 86400000 ? functions::timecount($period) : $lng['ban_time_before_cancel']),
             'type'    => isset($lng['ban_' . $res['ban_type']]) ? $lng['ban_' . $res['ban_type']] : 'Unknow',
             'time'    => functions::display_date($res['ban_while']),
-            'reason'  => functions::checkout($res['ban_reason']),
+            'reason'  => empty($res['ban_reason']) ? $lng['reason_not_specified'] : functions::checkout($res['ban_reason']),
             'ban_who' => ($rights > 0 ? $res['ban_who'] : ''),
             'menu'    => $menu
         ];
