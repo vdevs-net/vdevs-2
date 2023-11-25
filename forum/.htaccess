@@ -57,9 +57,6 @@ AddDefaultCharset UTF-8
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteCond %{HTTP_HOST} !^forum\.vdevs\.pro
-    RewriteRule .* http://forum.vdevs.pro%{REQUEST_URI} [R=301,L]
-
     #RewriteCond %{HTTPS} !=on
     #RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
 

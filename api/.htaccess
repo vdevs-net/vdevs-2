@@ -6,9 +6,6 @@ DirectoryIndex index.php
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /
-    RewriteCond %{HTTP_HOST} !^api.vdevs.pro
-    RewriteRule ^.*$ http://api.vdevs.pro [L,QSA]
 
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -l [OR]
