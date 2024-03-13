@@ -29,7 +29,7 @@ switch ($mod) {
         $select = isset($_POST['select']) ? abs(intval($_POST['select'])) : 0;
         $tpl_data['success'] = false;
         if (IS_POST && TOKEN_VALID) {
-            if ($coin < $minCoin || $coin > $maxCoin || ($coin % 10)) {
+            if ($coin < $minCoin || $coin > $maxCoin || ($coin % 100)) {
                 $error = 'Số xu cược không hợp lệ!';
             } elseif ($select < 1 || $select > 3) {
                 $error = 'Lựa chọn không hợp lệ';
